@@ -1,12 +1,12 @@
 Summary:	X.org video driver for Matrox video adapters
 Summary(pl):	Sterownik obrazu X.org dla kart graficznych Matrox
 Name:		xorg-driver-video-mga
-Version:	1.2.1.3
+Version:	1.4.1
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/driver/xf86-video-mga-%{version}.tar.bz2
-# Source0-md5:	9895de01c57354c7aa80907dc05b7e66
+Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-mga-%{version}.tar.bz2
+# Source0-md5:	ba373233a7d13084d14046a17b02e248
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	Mesa-libGL-devel
 BuildRequires:	autoconf >= 2.57
@@ -21,7 +21,8 @@ BuildRequires:	xorg-proto-videoproto-devel
 BuildRequires:	xorg-proto-xextproto-devel
 BuildRequires:	xorg-proto-xf86driproto-devel
 BuildRequires:	xorg-util-util-macros >= 0.99.2
-BuildRequires:	xorg-xserver-server-devel >= 0.99.3
+BuildRequires:	xorg-xserver-server-devel >= 1.0.99.901
+Requires:	xorg-xserver-server >= 1.0.99.901
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
