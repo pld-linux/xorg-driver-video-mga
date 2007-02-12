@@ -1,5 +1,5 @@
 Summary:	X.org video driver for Matrox video adapters
-Summary(pl.UTF-8):   Sterownik obrazu X.org dla kart graficznych Matrox
+Summary(pl.UTF-8):	Sterownik obrazu X.org dla kart graficznych Matrox
 Name:		xorg-driver-video-mga
 Version:	1.4.6.1
 Release:	1
