@@ -1,5 +1,5 @@
 Summary:	X.org video driver for Matrox video adapters
-Summary(pl):	Sterownik obrazu X.org dla kart graficznych Matrox
+Summary(pl.UTF-8):   Sterownik obrazu X.org dla kart graficznych Matrox
 Name:		xorg-driver-video-mga
 Version:	1.4.6.1
 Release:	1
@@ -33,9 +33,9 @@ video cards based on the following Matrox chips: MGA2064W, MGA1064SG
 G400 MAX, Millenium G450 and Marvel G450 eTV), G550 (Milenium G550 and
 Millenium G500 Dual DVI).
 
-%description -l pl
-Sterownik obrazu X.org dla kart graficznych Matrox. Obs³uguje karty
-PCI i AGP oparte na nastêpuj±cych uk³adach Matroksa: MGA2064W,
+%description -l pl.UTF-8
+Sterownik obrazu X.org dla kart graficznych Matrox. ObsÅ‚uguje karty
+PCI i AGP oparte na nastÄ™pujÄ…cych ukÅ‚adach Matroksa: MGA2064W,
 MGA1064SG (Mystique), MGA2164W (Millennium II), G100 (Productiva
 G100), G200 (Millennium G200 i Mystique G200), G400 (Millenium G400,
 Millenium G400 MAX, Millenium G450 i Marvel G450 eTV), G550 (Milenium
