@@ -26,6 +26,8 @@ BuildRequires:	xorg-util-util-macros >= 0.99.2
 BuildRequires:	xorg-xserver-server-devel >= 1.3.0
 BuildRequires:  rpmbuild(macros) >= 1.389
 %requires_xorg_xserver_videodrv
+Requires:	xorg-xserver-libdri
+Requires:	xorg-xserver-libglx
 Requires:	xorg-xserver-server >= 1.3.0
 Obsoletes:	X11-driver-mga < 1:7.0.0
 Obsoletes:	XFree86-mga
