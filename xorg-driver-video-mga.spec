@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Sterownik obrazu X.org dla kart graficznych Matrox
 Name:		xorg-driver-video-mga
 # 1.9.100 is older than 1.4.13
 Version:	1.4.13
-Release:	3
+Release:	4
 Epoch:		1
 License:	MIT
 Group:		X11/Applications
@@ -32,9 +32,10 @@ BuildRequires:	xorg-xserver-server-devel >= 1.3.0
 Requires:	xorg-xserver-libdri >= 1.3.0
 Requires:	xorg-xserver-libglx >= 1.3.0
 Requires:	xorg-xserver-server >= 1.3.0
+Provides:	xorg-driver-video
 Obsoletes:	X11-driver-mga < 1:7.0.0
-Obsoletes:	XFree86-mga
 Obsoletes:	XFree86-driver-mga < 1:7.0.0
+Obsoletes:	XFree86-mga
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
