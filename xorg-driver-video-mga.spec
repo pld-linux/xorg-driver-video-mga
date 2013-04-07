@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Sterownik obrazu X.org dla kart graficznych Matrox
 Name:		xorg-driver-video-mga
 # NOTE: 1.9.100 is older than 1.6.2
 Version:	1.6.2
-Release:	2
+Release:	3
 Epoch:		1
 License:	MIT
 Group:		X11/Applications
