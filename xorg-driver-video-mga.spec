@@ -3,12 +3,13 @@ Summary(pl.UTF-8):	Sterownik obrazu X.org dla kart graficznych Matrox
 Name:		xorg-driver-video-mga
 # NOTE: 1.9.100 is older than 1.6.2
 Version:	1.6.4
-Release:	3
+Release:	4
 Epoch:		1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-mga-%{version}.tar.bz2
 # Source0-md5:	cd3db8370caa3e607614ea4e74d4c350
+Patch0:		xserver-1.19.patch
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	Mesa-libGL-devel
 BuildRequires:	autoconf >= 2.60
@@ -64,6 +65,7 @@ PCI i AGP oparte na następujących układach Matroksa:
 
 %prep
 %setup -q -n xf86-video-mga-%{version}
+%patch0 -p1
 
 %build
 %{__libtoolize}
