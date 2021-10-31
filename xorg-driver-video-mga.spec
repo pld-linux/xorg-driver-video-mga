@@ -2,7 +2,7 @@ Summary:	X.org video driver for Matrox video adapters
 Summary(pl.UTF-8):	Sterownik obrazu X.org dla kart graficznych Matrox
 Name:		xorg-driver-video-mga
 Version:	2.0.0
-Release:	1
+Release:	2
 Epoch:		1
 License:	MIT
 Group:		X11/Applications
