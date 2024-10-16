@@ -1,18 +1,18 @@
 Summary:	X.org video driver for Matrox video adapters
 Summary(pl.UTF-8):	Sterownik obrazu X.org dla kart graficznych Matrox
 Name:		xorg-driver-video-mga
-Version:	2.0.1
+Version:	2.1.0
 Release:	1
 Epoch:		1
 License:	MIT
 Group:		X11/Applications
 Source0:	https://xorg.freedesktop.org/releases/individual/driver/xf86-video-mga-%{version}.tar.xz
-# Source0-md5:	6eeb624edc4105fcafe73e837c22cdee
+# Source0-md5:	5b2e85f46dfc46b03d5d9f90f76d3678
 URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	libdrm-devel >= 2.0
-BuildRequires:	libtool
+BuildRequires:	libtool >= 2:2
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	rpmbuild(macros) >= 1.389
 BuildRequires:	tar >= 1:1.22
@@ -26,12 +26,11 @@ BuildRequires:	xorg-proto-xextproto-devel
 BuildRequires:	xorg-proto-xf86driproto-devel
 BuildRequires:	xorg-proto-xproto-devel
 BuildRequires:	xorg-util-util-macros >= 1.8
-BuildRequires:	xorg-xserver-server-devel >= 1.3.0
+BuildRequires:	xorg-xserver-server-devel >= 1.18.0
 BuildRequires:	xz
 %{?requires_xorg_xserver_videodrv}
-Requires:	xorg-xserver-libdri >= 1.3.0
-Requires:	xorg-xserver-libglx >= 1.3.0
-Requires:	xorg-xserver-server >= 1.3.0
+Requires:	xorg-xserver-libglx >= 1.18.0
+Requires:	xorg-xserver-server >= 1.18.0
 Provides:	xorg-driver-video
 Obsoletes:	X11-driver-mga < 1:7.0.0
 Obsoletes:	XFree86-driver-mga < 1:7.0.0
